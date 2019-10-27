@@ -1,0 +1,14 @@
+{
+  "name": "ykit-nodejs",
+  "version": "1.0.0",
+  "description": "express study",
+  "main": "entry.js",
+  "repository": "https://github.com/1824437/ykit-nodejs.git",
+  "author": "zhutao <zhutao@live.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "formidable": "^1.2.1",
+    "handlebars": "^4.0.11"
+  }
+}

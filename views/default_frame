@@ -1,0 +1,14 @@
+{{> "slots/_doctype"}}
+<html>
+  <head>
+    {{> "slots/_charset"}}
+    {{> "slots/_meta"}}
+    <title>测试</title>
+    <link rel="stylesheet" href="//sina.com/ykit_mobile/prd/styles/react/react.css" />
+    {{> "slots/_head_end"}}
+  </head>
+  <body>
+    <script src="//sina.com/ykit_mobile/prd/scripts/normals/handlebars_example.js"></script> 
+    {{> "slots/_body_end"}}
+  </body>
+</html>

@@ -1,0 +1,70 @@
+{{> "slots/_doctype"}}
+
+<html>
+  <head>
+    {{> "slots/_charset"}}
+    {{> "slots/_meta"}}
+    <title>测试</title>
+    {{> "slots/_head_end"}}
+    {{!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.source.com.cn/a.jpg"/>  --}}
+    <link rel="stylesheet" href="//www.source.com.cn/ymobile/prd/styles/test/test_meta.css" />
+    <script>
+      //var x = '{"a":"<p style=\"color:red;\"></p>"';
+      var x = "{{js}}";
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <form id="a">
+        <input type="file" name="xx">
+      </form>
+      <div class="blk1">
+        <div class="top1"></div>
+        <div class="bottom1"></div>
+      </div>
+      <div class="tag1">
+          <a href="//www.google.com">google</a>
+          <a href="//www.google.com">google</a>
+          <a href="//www.google.com">google</a>
+          <a href="//www.google.com">google</a>
+        </div>
+      <div class="blk2"></div>
+      <div class="blk3"></div>
+    </div>
+    <div class="floor-container">
+      <ul class="tab-bar">
+        <li>
+          <span>
+            <img>
+          </span>
+        </li>
+      </ul>
+    <table>
+      <tbody></tbody>
+    </table>
+    <table>
+      <tbody><tr></tr></tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr><td></td></tr>
+        <tr></tr></tbody>
+    </table>
+    </div>
+    <script src="//common.qunarzz.com/lib/prd/jquery/1.7.2/jquery.min.js"></script>
+    <script src="//common.qunarzz.com/lib/prd/vue/2.4.4/vue.min.js"></script>
+    <script src="//common.qunarzz.com/lib/prd/react/15.6.1/react.min.js"></script>
+    <script src="//common.qunarzz.com/lib/prd/react/15.6.1/react-dom.min.js"></script>
+    <script src="//common.qunarzz.com/lib/prd/require.js/2.3.5/require.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="//www.source.com.cn/ymobile/prd/scripts/test/require_test.js"></script> 
+    <script type="text/javascript">
+      
+      
+    </script>
+    {{> "slots/_body_end"}}
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{{> "slots/_doctype"}}
+
+<html>
+  <head>
+    {{> "slots/_charset"}}
+    {{> "slots/_meta"}}
+    <title>测试</title>
+    {{> "slots/_head_end"}}
+    {{!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.source.com.cn/a.jpg"/>  --}}
+    <script>
+      //var x = '{"a":"<p style=\"color:red;\"></p>"';
+      var x = "{{js}}";
+    </script>
+  </head>
+
+  <body>
+    <script src="//common.qunarzz.com/lib/prd/require.js/2.3.5/require.min.js"></script>
+    {{!-- <script src="//www.source.com.cn/ymobile/prd/scripts/test/require_test.js"></script>  --}}
+    <script src="//www.source.com.cn/ymobile/prd/scripts/hash.js"></script> 
+    
+    {{> "slots/_body_end"}}
+  </body>
+</html>

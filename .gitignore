@@ -1,0 +1,22 @@
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+#npm package
+node_modules/
+
+#logs
+logs/
+
+#eslint
+.eslintrc.js
+
+.gitignore.orig
+
+#vscode
+.vscode/
